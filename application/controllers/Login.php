@@ -12,6 +12,9 @@ class Login extends CI_Controller {
 			'isContact'=> false,
 			'isLogScreen'=>true
 		);
+
+		$this->load->helper('form');
+
 		$this->load->view('heading');
 		$this->load->view('navigation-out',$data);
         $this->load->view('login');
