@@ -6,7 +6,7 @@
                 </div>
                 <div class="box">
                     <div class="login-box">
-                        <form action="checklogin.php" method="POST">
+                        <?php echo form_open('login/check') ?>
                           <div class="form-group">
                             <label for="formGroupExampleInput">Username</label>
                             <input type="text" class="form-control" name="username" placeholder="Username">
@@ -20,7 +20,7 @@
                           <div class="not-member">
                             <p>NOT YET A MEMBER?<br><a class="logo-red" href="register.php">REGISTER NOW!</a></p>
                           </div>
-                        </form>
+                        <?php echo form_close(); ?>
                     </div>
 
                 </div>

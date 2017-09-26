@@ -22,7 +22,7 @@
             </li>
           </ul>
           <hr>
-          <?php if($isLogScreen): ?>
+          <?php if(!$isLogScreen): ?>
           <div class="member">
             <ul class="navbar-nav ml-auto">
               <li>ARE YOU A MEMBER?</li>

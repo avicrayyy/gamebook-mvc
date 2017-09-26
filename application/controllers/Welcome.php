@@ -26,7 +26,7 @@ class Welcome extends CI_Controller {
 			'isLearn'=> false,
 			'isGames'=> false,
 			'isContact'=> false,
-			'isLogScreen'=>true
+			'isLogScreen'=>false
 		);
 		$this->load->view('heading');
 		$this->load->view('navigation-out',$data);
