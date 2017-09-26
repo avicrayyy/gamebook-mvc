@@ -21,6 +21,7 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 		$data['isNotLogScreen'] = true;
+		$data['isHome'] = true;
 		$this->load->view('heading');
 		$this->load->view('navigation-out',$data);
 		$this->load->view('index');

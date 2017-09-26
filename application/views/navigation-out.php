@@ -6,7 +6,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ">
-            <li class="nav-item active">
+            <li class="nav-item <?php if($isHome){ echo "active";} ?>">
               <a class="nav-link" href="index.php">Home
                 <span class="sr-only">(current)</span>
               </a>
