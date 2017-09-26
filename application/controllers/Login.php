@@ -5,7 +5,13 @@ class Login extends CI_Controller {
 
 	public function index()
 	{
-		$data['isNotLogScreen'] = false;
+		$data= array(
+			'isHome'= false,
+			'isLearn' = false,
+			'isGames' = false,
+			'isContact' = false,
+			'isLogScreen'= true
+		);
 		$this->load->view('heading');
 		$this->load->view('navigation-out',$data);
         $this->load->view('login');

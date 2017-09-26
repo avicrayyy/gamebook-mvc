@@ -20,8 +20,14 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$data['isNotLogScreen'] = true;
-		$data['isHome'] = true;
+		
+		$data= array(
+			'isHome'= true,
+			'isLearn' = false,
+			'isGames' = false,
+			'isContact' = false,
+			'isLogScreen'= false
+		);
 		$this->load->view('heading');
 		$this->load->view('navigation-out',$data);
 		$this->load->view('index');
