@@ -14,7 +14,6 @@
     <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="/assets/css/full-slider.css" rel="stylesheet">
     <link href="/assets/css/style.css" rel="stylesheet">
 
   </head>
