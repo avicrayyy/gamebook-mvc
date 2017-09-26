@@ -27,7 +27,7 @@
                 </div>
               </div>
             <video autoplay loop class="fillWidth">
-                <source src="/assets/video/bg.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.</video>
+                <source src="<?php echo base_url("assets/video/bg.mp4");?>" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.</video>
             <div class="poster hidden">
                 <img src="#" alt="intro">
             </div>
