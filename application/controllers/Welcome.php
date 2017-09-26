@@ -22,11 +22,11 @@ class Welcome extends CI_Controller {
 	{
 		
 		$data= array(
-			'isHome', false,
-			'isLearn', false,
-			'isGames', false,
-			'isContact', false,
-			'isLogScreen',true
+			'isHome'=> false,
+			'isLearn'=> false,
+			'isGames'=> false,
+			'isContact'=> false,
+			'isLogScreen'=>true
 		);
 		$this->load->view('heading');
 		$this->load->view('navigation-out',$data);
