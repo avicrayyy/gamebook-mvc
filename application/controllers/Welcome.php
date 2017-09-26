@@ -20,6 +20,10 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		$data['isNotLogScreen'] = true;
+		$this->load->view('heading');
+		$this->load->view('navigation-out',$data);
+		$this->load->view('index');
+		$this->load->view('scripts');
 	}
 }
